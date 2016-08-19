@@ -40,6 +40,7 @@ class MD5Hasher implements Hasher
     /**
      * @param string $hashedValue
      * @param array $options
+     * @return string
      */
     public function needsRehash($hashedValue, array $options = [])
     {
